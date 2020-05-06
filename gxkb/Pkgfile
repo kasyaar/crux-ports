@@ -1,0 +1,12 @@
+# Depends on: libwnck, libxklavier, gtk
+name=gxkb
+version=0.8.1
+source=(https://github.com/zen-tools/gxkb/archive/v0.8.1.tar.gz)
+release=1
+build () {
+    cd $name-$version
+    ./autogen.sh
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+}
