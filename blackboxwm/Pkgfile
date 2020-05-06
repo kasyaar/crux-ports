@@ -1,0 +1,11 @@
+name=blackboxwm
+version=0.75
+source=(https://github.com/bbidulock/blackboxwm/archive/$version/$name-$version.tar.gz)
+release=2
+build () {
+    cd $name-$version
+    ./autogen.sh
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+}
