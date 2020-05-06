@@ -1,0 +1,14 @@
+drwxr-xr-x	kasyaar/users	usr/
+drwxr-xr-x	kasyaar/users	usr/local/
+drwxr-xr-x	kasyaar/users	usr/local/bin/
+-rwxr-xr-x	kasyaar/users	usr/local/bin/berry
+-rwxr-xr-x	kasyaar/users	usr/local/bin/berryc
+drwxr-xr-x	kasyaar/users	usr/local/share/
+drwxr-xr-x	kasyaar/users	usr/local/share/man/
+drwxr-xr-x	kasyaar/users	usr/local/share/man/man1/
+-rw-r--r--	kasyaar/users	usr/local/share/man/man1/berry.1.gz
+-rw-r--r--	kasyaar/users	usr/local/share/man/man1/berryc.1.gz
+drwxr-xr-x	kasyaar/users	usr/share/
+drwxr-xr-x	kasyaar/users	usr/share/berry/
+-rwxr-xr-x	kasyaar/users	usr/share/berry/autostart
+-rwxr-xr-x	kasyaar/users	usr/share/berry/sxhdrc

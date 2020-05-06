@@ -1,0 +1,9 @@
+name=zoom
+version=5.0.398100
+release=0427
+source=(https://us04web.zoom.us/client/latest/zoom_x86_64.tar.xz)
+build () {
+    mkdir -p $PKG/opt
+    cp -r zoom $PKG/opt
+
+}

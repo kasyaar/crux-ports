@@ -1,0 +1,26 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on:
+
+name=kitty
+version=git
+release=1
+source=()
+
+build() {
+    cd $PKGMK_SOURCE_DIR
+    if [ ! -d $name ]; then
+        git clone https://github.com/kovidgoyal/kitty
+    else
+		cd $name && git pull
+	fi
+    cp -r $PKGMK_SOURCE_DIR/$name $SRC
+    cd $SRC/$name
+    git checkout master
+    make
+    python3 setup.py linux-package
+    install -D linux-package/bin/kitty $PKG/usr/bin/kitty
+    cp -r linux-package/lib $PKG/usr
+    cp -r linux-package/share $PKG/usr
+}
