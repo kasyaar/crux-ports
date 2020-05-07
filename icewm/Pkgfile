@@ -1,6 +1,6 @@
 name=icewm
-version=1.4.2
-source=(https://github.com/bbidulock/icewm/releases/download/$version/$name-$version.tar.bz2)
+version=1.6.5
+source=(https://github.com/ice-wm/icewm/releases/download/$version/$name-$version.tar.lz)
 release=1
 build () {
     cd $name-$version
