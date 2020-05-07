@@ -1,7 +1,7 @@
 # Description:
 # URL:
 # Maintainer:
-# Depends on:
+# Depends on: libxkbcommon
 
 name=kitty
 version=git
