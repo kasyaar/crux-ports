@@ -1,0 +1,25 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on:
+
+name=fish-shell
+version=git
+release=1
+source=()
+
+build() {
+    cd $PKGMK_SOURCE_DIR
+    if [ ! -d $name ]; then
+         git clone https://github.com/fish-shell/fish-shell.git
+    else
+		cd $name && git pull
+	fi
+    cp -r $PKGMK_SOURCE_DIR/$name $SRC
+    cd $SRC/$name
+    git checkout master
+    mkdir build && cd build
+    cmake ../ -DCMAKE_INSTALL_PREFIX=/usr
+    make
+    make DESTDIR=$PKG install
+}
