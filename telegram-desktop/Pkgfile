@@ -1,6 +1,6 @@
 name=telegram-desktop
-version=2.1.0
-source=(https://github.com/telegramdesktop/tdesktop/releases/download/v2.1.0/tsetup.2.1.0.tar.xz)
+version=2.1.2
+source=(https://github.com/telegramdesktop/tdesktop/releases/download/v$version/tsetup.$version.tar.xz)
 release=1
 build () {
     mkdir -p $PKG/opt/bin
