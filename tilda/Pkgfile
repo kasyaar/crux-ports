@@ -1,0 +1,26 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on:
+
+name=tilda
+version=git
+release=1
+source=()
+
+build() {
+    cd $PKGMK_SOURCE_DIR
+    if [ ! -d $name ]; then
+		git clone https://github.com/lanoxx/tilda.git
+    else
+		cd $name && git pull
+	fi
+    cp -r $PKGMK_SOURCE_DIR/$name $SRC
+    cd $SRC/$name
+    git checkout master
+    mkdir build
+    cd build
+    ../autogen.sh --prefix=/usr
+    make --silent
+    make DESTDIR=$PKG install
+}
