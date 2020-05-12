@@ -2,6 +2,7 @@ drwxr-xr-x	kasyaar/users	usr/
 drwxr-xr-x	kasyaar/users	usr/bin/
 -rwxr-xr-x	kasyaar/users	usr/bin/icehelp
 -rwxr-xr-x	kasyaar/users	usr/bin/icesh
+-rwxr-xr-x	kasyaar/users	usr/bin/icesound
 -rwxr-xr-x	kasyaar/users	usr/bin/icewm
 -rwxr-xr-x	kasyaar/users	usr/bin/icewm-menu-fdo
 -rwxr-xr-x	kasyaar/users	usr/bin/icewm-menu-xrandr
@@ -14,6 +15,7 @@ drwxr-xr-x	kasyaar/users	usr/share/doc/
 drwxr-xr-x	kasyaar/users	usr/share/doc/icewm/
 -rw-r--r--	kasyaar/users	usr/share/doc/icewm/icehelp.1.html
 -rw-r--r--	kasyaar/users	usr/share/doc/icewm/icesh.1.html
+-rw-r--r--	kasyaar/users	usr/share/doc/icewm/icesound.1.html
 -rw-r--r--	kasyaar/users	usr/share/doc/icewm/icewm-env.5.html
 -rw-r--r--	kasyaar/users	usr/share/doc/icewm/icewm-focus_mode.5.html
 -rw-r--r--	kasyaar/users	usr/share/doc/icewm/icewm-keys.5.html
@@ -707,6 +709,7 @@ drwxr-xr-x	kasyaar/users	usr/share/man/
 drwxr-xr-x	kasyaar/users	usr/share/man/man1/
 -rw-r--r--	kasyaar/users	usr/share/man/man1/icehelp.1.gz
 -rw-r--r--	kasyaar/users	usr/share/man/man1/icesh.1.gz
+-rw-r--r--	kasyaar/users	usr/share/man/man1/icesound.1.gz
 -rw-r--r--	kasyaar/users	usr/share/man/man1/icewm-menu-fdo.1.gz
 -rw-r--r--	kasyaar/users	usr/share/man/man1/icewm-menu-xrandr.1.gz
 -rw-r--r--	kasyaar/users	usr/share/man/man1/icewm-session.1.gz
