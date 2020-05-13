@@ -1,0 +1,11 @@
+drwxr-xr-x	kasyaar/users	etc/
+drwxr-xr-x	kasyaar/users	etc/udev/
+drwxr-xr-x	kasyaar/users	etc/udev/rules.d/
+-rwxr-xr-x	kasyaar/users	etc/udev/rules.d/90-backlight.rules
+drwxr-xr-x	kasyaar/users	usr/
+drwxr-xr-x	kasyaar/users	usr/bin/
+-rwxr-xr-x	kasyaar/users	usr/bin/xbacklight
+drwxr-xr-x	kasyaar/users	usr/share/
+drwxr-xr-x	kasyaar/users	usr/share/man/
+drwxr-xr-x	kasyaar/users	usr/share/man/man1/
+-rwxr-xr-x	kasyaar/users	usr/share/man/man1/xbacklight.1.gz
