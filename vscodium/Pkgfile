@@ -1,0 +1,12 @@
+name=vscodium
+version=1.47.1
+source=(https://github.com/VSCodium/vscodium/releases/download/1.47.0/VSCodium-linux-x64-1.47.1.tar.gz)
+release=2
+build () {
+    mkdir -p $PKG/opt/vscodium
+    mkdir -p $PKG/usr/share/icons
+    mkdir -p $PKG/usr/share/applications
+    cp -r ./* $PKG/opt/vscodium
+    cp -r resources/app/resources/linux/code.png $PKG/usr/share/icons/codium.png
+    cp -r ../../codium.desktop $PKG/usr/share/applications
+}
