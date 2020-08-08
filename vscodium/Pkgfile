@@ -1,6 +1,6 @@
 name=vscodium
-version=1.47.1
-source=(https://github.com/VSCodium/vscodium/releases/download/1.47.0/VSCodium-linux-x64-1.47.1.tar.gz)
+version=1.47.3
+source=(https://github.com/VSCodium/vscodium/releases/download/1.47.3/VSCodium-linux-x64-1.47.3.tar.gz)
 release=1
 build () {
     mkdir -p $PKG/usr/share/codium
