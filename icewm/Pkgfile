@@ -1,9 +1,10 @@
 name=icewm
-version=1.8.0
+version=3.4.7
 source=(https://github.com/ice-wm/icewm/releases/download/$version/$name-$version.tar.lz)
 release=1
 build () {
     cd $name-$version
+    ./autogen.sh
     ./configure --prefix=/usr
     make
     make DESTDIR=$PKG install
