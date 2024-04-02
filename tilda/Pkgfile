@@ -1,7 +1,7 @@
 # Description:
 # URL:
 # Maintainer:
-Depends on: vte3
+# Depends on: vte3 confuse
 
 name=tilda
 version=git
